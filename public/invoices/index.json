@@ -1,0 +1,23 @@
+[
+  {
+    "id": "inv-2024-001",
+    "invoiceNumber": "INV-2024-001",
+    "invoiceDate": "2025年12月14日",
+    "clientName": "株式会社お客様",
+    "total": 748000
+  },
+  {
+    "id": "inv-2024-002",
+    "invoiceNumber": "INV-2024-002",
+    "invoiceDate": "2024年12月10日",
+    "clientName": "合同会社テスト",
+    "total": 385000
+  },
+  {
+    "id": "inv-2024-003",
+    "invoiceNumber": "INV-2024-003",
+    "invoiceDate": "2024年12月5日",
+    "clientName": "株式会社開発",
+    "total": 1650000
+  }
+]

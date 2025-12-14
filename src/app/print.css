@@ -1,0 +1,33 @@
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .no-print {
+    display: none !important;
+  }
+  
+  .print-hidden {
+    display: none !important;
+  }
+  
+  [data-invoice] {
+    box-shadow: none !important;
+    margin: 0 !important;
+    padding: 10mm !important;
+  }
+  
+  @page {
+    margin: 0;
+    size: A4 portrait;
+  }
+  
+  /* ページ内に収める */
+  html, body {
+    width: 210mm;
+    height: 297mm;
+  }
+}

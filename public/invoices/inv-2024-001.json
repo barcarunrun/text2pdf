@@ -1,0 +1,41 @@
+{
+  "invoiceNumber": "INV-2024-001",
+  "invoiceDate": "2025年12月14日",
+  "dueDate": "2026年1月14日",
+  "from": {
+    "name": "株式会社サンプル",
+    "address": "〒100-0001\n東京都千代田区千代田1-1-1\nサンプルビル5F",
+    "email": "info@sample.co.jp",
+    "phone": "03-1234-5678"
+  },
+  "to": {
+    "name": "株式会社お客様",
+    "address": "〒150-0001\n東京都渋谷区渋谷2-2-2\nお客様ビル3F",
+    "email": "contact@customer.co.jp",
+    "phone": "03-9876-5432"
+  },
+  "items": [
+    {
+      "description": "Webサイト制作",
+      "quantity": 1,
+      "unitPrice": 500000,
+      "amount": 500000
+    },
+    {
+      "description": "システム保守(3ヶ月)",
+      "quantity": 3,
+      "unitPrice": 50000,
+      "amount": 150000
+    },
+    {
+      "description": "サーバー費用",
+      "quantity": 1,
+      "unitPrice": 30000,
+      "amount": 30000
+    }
+  ],
+  "subtotal": 680000,
+  "tax": 68000,
+  "total": 748000,
+  "notes": "お振込先: 銀行名: サンプル銀行 / 支店名: 本店 / 口座種別: 普通 / 口座番号: 1234567 / 口座名義: カ)サンプル"
+}

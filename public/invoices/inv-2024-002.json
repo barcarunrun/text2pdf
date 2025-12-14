@@ -1,0 +1,35 @@
+{
+  "invoiceNumber": "INV-2024-002",
+  "invoiceDate": "2024年12月10日",
+  "dueDate": "2025年1月10日",
+  "from": {
+    "name": "株式会社サンプル",
+    "address": "〒100-0001\n東京都千代田区千代田1-1-1\nサンプルビル5F",
+    "email": "info@sample.co.jp",
+    "phone": "03-1234-5678"
+  },
+  "to": {
+    "name": "合同会社テスト",
+    "address": "〒160-0001\n東京都新宿区新宿3-3-3\nテストビル10F",
+    "email": "hello@test-llc.jp",
+    "phone": "03-5555-1234"
+  },
+  "items": [
+    {
+      "description": "コンサルティング費用",
+      "quantity": 10,
+      "unitPrice": 30000,
+      "amount": 300000
+    },
+    {
+      "description": "資料作成費",
+      "quantity": 1,
+      "unitPrice": 50000,
+      "amount": 50000
+    }
+  ],
+  "subtotal": 350000,
+  "tax": 35000,
+  "total": 385000,
+  "notes": "お振込先:\n銀行名: サンプル銀行\n支店名: 本店\n口座種別: 普通\n口座番号: 1234567\n口座名義: カ)サンプル"
+}
