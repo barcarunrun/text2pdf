@@ -4,6 +4,18 @@ yarn dev
 
 「text2invoice」は、テキストデータから日本のビジネス向け請求書をWeb上で表示・PDF出力できる Next.js + TypeScript 製アプリケーションです。
 
+
+
+
+https://github.com/user-attachments/assets/558dc904-8e98-4fc3-8c26-6c04dfece7e6
+
+
+
+https://github.com/user-attachments/assets/4d5540b2-ca0f-452c-a52e-e55dbfba0c1f
+
+
+
+
 ## 主な機能
 
 - 請求書一覧表示（`/`）
